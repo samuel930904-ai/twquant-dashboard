@@ -161,6 +161,21 @@
     font-weight: 600; font-size: 14px; width: 32px; text-align: center;
   }
 
+  /* PP v3 pattern tags */
+  .pp-tag {
+    display: inline-block; padding: 3px 9px; border-radius: 12px;
+    font-size: 11px; font-weight: 600; white-space: nowrap;
+  }
+  .pp-a { background: rgba(63, 185, 80, 0.15); border: 1px solid rgba(63, 185, 80, 0.4); color: #56d364; }
+  .pp-b { background: rgba(255, 211, 61, 0.12); border: 1px solid rgba(255, 211, 61, 0.35); color: #ffd33d; }
+  .pp-c { background: rgba(88, 166, 255, 0.15); border: 1px solid rgba(88, 166, 255, 0.4); color: #58a6ff; }
+  .pp-stats {
+    display: flex; gap: 12px; flex-wrap: wrap;
+    margin-bottom: 12px; font-size: 13px; color: var(--text-2);
+  }
+  .pp-stats span { padding: 4px 10px; background: var(--bg-2);
+                    border: 1px solid var(--border); border-radius: 8px; }
+
   .grid-2 {
     display: grid; grid-template-columns: 1fr 1fr; gap: 18px;
     margin-bottom: 18px;
@@ -251,9 +266,11 @@
 </div>
 
 <div class="card">
-  <h2>🏆 今日 Top 10 <span class="count">2026-05-04</span></h2>
+  <h2>🏆 今日 Top 10 <span class="count">籌碼 DNA · 2026-05-04</span></h2>
   <table><tbody><tr><td style="text-align:center;width:40px;"><span class="medal">🥇</span></td><td><span class="stock-id">3715</span></td><td><span class="stock-name">定穎投控</span></td><td><span class="industry">電子零組件業</span></td><td class="score-cell">  <span class="score">82.0</span>  <div class="score-bar"><div class="score-bar-fill" style="width:60%"></div></div></td><td style="text-align:right;"></td></tr><tr><td style="text-align:center;width:40px;"><span class="medal">🥈</span></td><td><span class="stock-id">2337</span></td><td><span class="stock-name">旺宏</span></td><td><span class="industry">半導體業</span></td><td class="score-cell">  <span class="score">80.8</span>  <div class="score-bar"><div class="score-bar-fill" style="width:57%"></div></div></td><td style="text-align:right;"></td></tr><tr><td style="text-align:center;width:40px;"><span class="medal">🥉</span></td><td><span class="stock-id">2301</span></td><td><span class="stock-name">光寶科</span></td><td><span class="industry">電腦及週邊設備業</span></td><td class="score-cell">  <span class="score">75.8</span>  <div class="score-bar"><div class="score-bar-fill" style="width:46%"></div></div></td><td style="text-align:right;"></td></tr><tr><td style="text-align:center;width:40px;"><span class="rank">4</span></td><td><span class="stock-id">2408</span></td><td><span class="stock-name">南亞科</span></td><td><span class="industry">半導體業</span></td><td class="score-cell">  <span class="score">74.5</span>  <div class="score-bar"><div class="score-bar-fill" style="width:43%"></div></div></td><td style="text-align:right;"></td></tr><tr><td style="text-align:center;width:40px;"><span class="rank">5</span></td><td><span class="stock-id">6805</span></td><td><span class="stock-name">富世達</span></td><td><span class="industry">電子零組件業</span></td><td class="score-cell">  <span class="score">74.2</span>  <div class="score-bar"><div class="score-bar-fill" style="width:43%"></div></div></td><td style="text-align:right;"></td></tr><tr><td style="text-align:center;width:40px;"><span class="rank">6</span></td><td><span class="stock-id">6282</span></td><td><span class="stock-name">康舒</span></td><td><span class="industry">電子零組件業</span></td><td class="score-cell">  <span class="score">73.9</span>  <div class="score-bar"><div class="score-bar-fill" style="width:42%"></div></div></td><td style="text-align:right;"></td></tr><tr><td style="text-align:center;width:40px;"><span class="rank">7</span></td><td><span class="stock-id">2404</span></td><td><span class="stock-name">漢唐</span></td><td><span class="industry">其他電子業</span></td><td class="score-cell">  <span class="score">72.8</span>  <div class="score-bar"><div class="score-bar-fill" style="width:40%"></div></div></td><td style="text-align:right;"></td></tr><tr><td style="text-align:center;width:40px;"><span class="rank">8</span></td><td><span class="stock-id">2312</span></td><td><span class="stock-name">金寶</span></td><td><span class="industry">其他電子業</span></td><td class="score-cell">  <span class="score">67.0</span>  <div class="score-bar"><div class="score-bar-fill" style="width:27%"></div></div></td><td style="text-align:right;"></td></tr><tr><td style="text-align:center;width:40px;"><span class="rank">9</span></td><td><span class="stock-id">2344</span></td><td><span class="stock-name">華邦電</span></td><td><span class="industry">半導體業</span></td><td class="score-cell">  <span class="score">67.0</span>  <div class="score-bar"><div class="score-bar-fill" style="width:27%"></div></div></td><td style="text-align:right;"></td></tr><tr><td style="text-align:center;width:40px;"><span class="rank">10</span></td><td><span class="stock-id">2367</span></td><td><span class="stock-name">燿華</span></td><td><span class="industry">電子零組件業</span></td><td class="score-cell">  <span class="score">67.0</span>  <div class="score-bar"><div class="score-bar-fill" style="width:27%"></div></div></td><td style="text-align:right;"></td></tr></tbody></table>
 </div>
+
+
 
 <div class="card">
   <h2>⭐ 強訊號股 <span class="count">連續 ≥3 天進 Top 10 · 0 檔</span></h2>
@@ -333,7 +350,7 @@
 
 <footer>
   <span class="accent">twquant</span> Dashboard · 資料來源 FinMind · 模式 Shadow<br>
-  最後更新 2026-05-20 22:18
+  最後更新 2026-05-20 22:25
 </footer>
 
 </div>
